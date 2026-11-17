@@ -2,7 +2,7 @@
 """Make animated contribution SVG. Stdlib only. ponytail: one file."""
 import json, os, sys, urllib.request, datetime
 
-USER = os.environ.get("GH_USER", "PS-Wizard")
+USER = os.environ.get("GH_USER", "soggy-waffle")
 TOKEN = os.environ.get("GITHUB_TOKEN", "") or os.environ.get("GH_TOKEN", "")
 OUT = os.path.join(os.path.dirname(__file__), "svg", "github-contrib-animated.svg")
 
